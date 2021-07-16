@@ -1,0 +1,95 @@
+
+.header {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	align-content: stretch;
+    margin-top: 1px;
+}
+.header > div {
+    font-size: 15px;
+    color: black;
+}
+.nav-div > a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 115px 0px 70px 0px;
+    padding: 20px;
+}
+.content > div {
+    padding: 10px;
+}
+input {
+    width: 575px;
+    height: 42px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+}
+button{
+    width: 125px;
+    height: 37px;
+    border-radius: 7px;
+    border: none;
+    color: rgb(68, 61, 61);
+    background-color: rgb(247, 247, 247);
+    font-size: 14px;
+    margin: 10px 2px 8px 5px;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+.button-div {
+    padding-left: 150px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: rgb(243, 239, 239);
+    line-height: 55px;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+a{ text-decoration: none; color: rgb(126, 123, 123);}
+a:hover{cursor: pointer;}
+
+.signin-button {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    width: 100px;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fa-search {
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 15px;
+    font-size: 15px;
+    color: lightgray;
+}
+.fa-microphone {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 550px;
+    font-size: 18px;
+    color: rgb(89, 131, 245);
+    cursor: pointer;
+}
+.waffle-image {
+    width: 17px;
+    height: 17px;
+}
